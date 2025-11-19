@@ -36,7 +36,7 @@ USDT_ETH = os.environ.get("APECOIN_USDT_ETH", "0x614d8bdc87607ed477b14f8d69ff022
 
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "").rstrip("/")
 WEBHOOK_PATH = os.environ.get("WEBHOOK_PATH", TOKEN)
-PORT = int(os.environ.get("PORT", "8443"))
+PORT = int(os.environ.get("PORT", "10000"))
 HOST = os.environ.get("HOST", "0.0.0.0")
 
 AIRDROP_BONUS = int(os.environ.get("AIRDROP_BONUS", "1000"))
