@@ -1,3 +1,16 @@
+"""
+Webhook-ready Telegram bot for ApeCoin airdrop (uses built-in webhook server).
+- Uses environment variables for secrets
+- Preserves gas/bonus messages exactly as in your polling file
+- Safe DB updates (field whitelist)
+
+Usage:
+- Set WEBHOOK_URL to the public URL where this app will be reachable (e.g. https://myapp.onrender.com)
+- Optionally set WEBHOOK_PATH (default: bot token) to hide token in URL
+- Run with: python webhook_workspace/webhook_bot.py
+
+This file is independent and won't modify your fixed_workspace files.
+"""
 Webhook deployment (brief)
 
 1) Environment variables (set in host dashboard)
